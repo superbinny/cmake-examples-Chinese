@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.6)
+project (test_frida)
+add_executable(${PROJECT_NAME} test_frida.c)
+add_executable(hi hi.c)
+add_executable(Injecting Injecting_sockaddr_in.c)
